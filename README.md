@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master.svg?style=svg)](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master)
+[![CircleCI](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master.svg?style=svg)](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master) [![Greenkeeper badge](https://badges.greenkeeper.io/adobe/aem-sample-we-retail-journal.svg)](https://greenkeeper.io/)
 
 # We.Retail Journal Single Page Applications
 
