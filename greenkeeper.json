@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "angular-app/package.json",
+        "react-app/package.json"
+      ]
+    }
+  }
+}
