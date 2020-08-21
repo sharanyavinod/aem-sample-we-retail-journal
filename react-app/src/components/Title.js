@@ -13,9 +13,18 @@
  ~ See the License for the specific language governing permissions and
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-require('./components/Text');
-require('./components/Image');
-require('./components/Weather');
-require('./components/Navigation');
-require('./components/Page');
-require('./components/Title');
+import React from 'react';
+import { MapTo } from '@adobe/cq-react-editable-components';
+
+/**
+ * Text React component
+ */
+const Title = ({ text, type }) => {
+    const style = {
+      color: "#fff",
+      margin: "10px"
+    };
+    return type ? React.createElement(type, { className: 'title' }, text) : <h1>{text}</h1>;
+}
+
+MapTo('we-retail-journal/components/title')(Title);
